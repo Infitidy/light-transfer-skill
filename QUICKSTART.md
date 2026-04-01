@@ -1,5 +1,17 @@
 # Light Transfer Skill - 快速开始
 
+## 💻 系统要求
+
+- **操作系统**: Ubuntu 20.04+ (推荐)
+- **Python**: 3.10 或更高
+- **必需工具**: `curl`, `git`
+- **磁盘空间**: 建议 10GB+（缓存 + 输出）
+- **网络**: 可访问 RunningHub API
+
+> ⚠️ **注意**: 本 Skill 针对 **Ubuntu 22.04** 开发和测试。其他 Linux 发行版通常兼容；macOS/Windows 未验证，如有问题请反馈。
+
+---
+
 ## 📦 1. 准备图片目录
 
 ```bash
