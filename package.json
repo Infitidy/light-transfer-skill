@@ -1,0 +1,31 @@
+{
+  "name": "openclaw-skill-light-transfer",
+  "version": "1.0.0",
+  "description": "Automate image light transfer using RunningHub AI. Scans two image directories, generates all combinations, processes with RunningHub workflow, and saves outputs.",
+  "main": "scripts/light_transfer_cli.py",
+  "scripts": {
+    "dry-run": "python -m light-transfer-skill --dry-run",
+    "run": "python -m light-transfer-skill",
+    "simulate": "python -m light-transfer-skill --simulate"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "image-processing",
+    "light-transfer",
+    "runninghub",
+    "ai"
+  ],
+  "author": "Claw助手",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": ">=1.0.0"
+  },
+  "repository": {
+    "type": "local",
+    "url": "file:../../../../.openclaw/workspace/光线迁移"
+  }
+}

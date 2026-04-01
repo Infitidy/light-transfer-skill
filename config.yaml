@@ -1,0 +1,37 @@
+workflow:
+  workflow_id: "2037342126949797890"
+  base_url: "https://www.runninghub.cn"
+
+paths:
+  pic1_dir: "pics/pic1"
+  pic2_dir: "pics/pic2"
+  output_base: "outputs"
+  log_dir: "logs"
+  scripts_dir: "scripts"
+
+processing:
+  output_extension: "png"
+  max_retries: 3
+  retry_delay: 5
+  task_timeout: 600
+  delay_between_tasks: 5
+
+browser:
+  cdp_port: 9335
+  headless: false
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
+
+concurrency:
+  enabled: false
+  max_workers: 2
+
+resume:
+  enabled: true
+  state_file: "logs/completed.json"
+
+notifications:
+  enabled: false
